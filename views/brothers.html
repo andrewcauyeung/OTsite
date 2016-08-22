@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport">
+    
+    <title>Theta Tau Brothers</title>
+    
+    <link rel='shortcut icon' href='/media/favicon.png' type='image/x-icon'/>
+    
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/css/materialize.min.css" media="screen,projection" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" media="screen,projection" rel="stylesheet" type="text/css">
+    <style type="text/css"></style>
+</head>
+    
+<body>
+    <ul id="brotherdropdown" class="dropdown-content">
+        <li><a href="/brothers?who=all" class="blue-text">All</a></li>
+        <li class='template' style="display: none"><a href="/brothers?who=class" class="blue-text light">text</a></li>
+    </ul>
+    <nav class="grey lighten-3" role="navigation">
+        <div class="nav-wrapper container">
+            <a class="brand-logo" href="/" id="logo-container"><img src="/media/general/crest_small.png" vspace="15"></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="/rush" class="blue-text text-lighten-2">Rush</a></li>
+                <li class="active"><a class="dropdown-button blue-text text-lighten-2" href="#" data-activates="brotherdropdown">Brothers<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            <ul class="side-nav" id="nav-mobile" style="left: -250px;">
+                <li><a href="/" class="blue-text text-lighten-2">Home</a></li>
+                <li><a href="/rush" class="blue-text light">Rush</a></li>
+                <li class="active"><a href="/brothers?who=all" class="blue-text light">Brothers</a></li>
+            </ul><a class="button-collapse blue-text" data-activates="nav-mobile" href="#"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    
+    <div class="parallax-container" id="index-banner">
+        <div class="section no-pad-bot">
+            <div class="container">
+            </div>
+        </div>
+        <div class="parallax">
+        </div>
+    </div>
+    <div id="main" class="container">
+    </div>
+    
+    <footer class="page-footer blue lighten-1">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h5 class="white-text">Contact Us</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m6 s12">
+                    <p class="grey-text text-lighten-3">
+                        Have any questions, concerns, or comments?
+                        <br>We would love to hear from you! Contact us at:
+                        <br><span><a href="MAILTO:thetatau.SBU@gmail.com" class="grey-text text-lighten-2">thetatau.SBU@gmail.com</a></span>
+                    </p>
+                </div>
+                <div class="col m3 s6" align="center">
+                    <br>
+                    <a target="_blank" href="https://www.facebook.com/ThetaTauSBU/"><img src="/media/general/facebook.png" title="Facebook" width="40%"></a>
+                </div>
+                <div class="col m3 s6">
+                    <br>
+                    <a target="_blank" href="https://instagram.com/stonythetatau/"><img src="/media/general/instagram.png" title="Instagram" width="40%"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Made using <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+    <script src="/js/materialize.min.js"></script>
+    <script src="/js/classesInfo.js"></script>
+    <script src="/js/brothersInfo.js"></script>
+    <script src="/js/positionsInfo.js"></script>
+    <script src="/js/brothers.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-82830990-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <div class="hiddendiv common"></div>
+    <div class="drag-target" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+    </div>
+</body>
+</html>

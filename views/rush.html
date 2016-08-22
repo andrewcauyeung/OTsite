@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport">
+    
+    <title>Theta Tau Rush</title>
+    
+    <link rel='shortcut icon' href='/media/favicon.png' type='image/x-icon'/>
+    
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/css/materialize.min.css" media="screen,projection" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" media="screen,projection" rel="stylesheet" type="text/css">
+    <style type="text/css"></style>
+</head>
+    
+<body>
+    <ul id="brotherdropdown" class="dropdown-content">
+        <li><a href="/brothers?who=all" class="blue-text">All</a></li>
+        <li class="template" style="display: none"><a href="/brothers?who=CLASS" class="blue-text light">TEXT</a></li>
+    </ul>
+    <nav class="grey lighten-3" role="navigation">
+        <div class="nav-wrapper container">
+            <a class="brand-logo" href="/" id="logo-container"><img src="/media/general/crest_small.png" vspace="15"></a>
+            <ul class="right hide-on-med-and-down">
+                <li class="active"><a href="/rush" class="blue-text text-lighten-2">Rush</a></li>
+                <li><a class="dropdown-button blue-text text-lighten-2" href="#" data-activates="brotherdropdown">Brothers<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            <ul class="side-nav" id="nav-mobile" style="left: -250px;">
+                <li><a href="/" class="blue-text text-lighten-2">Home</a></li>
+                <li class="active"><a href="/rush" class="blue-text light">Rush</a></li>
+                <li><a href="/brothers?who=all" class="blue-text light">Brothers</a></li>
+            </ul><a class="button-collapse blue-text" data-activates="nav-mobile" href="#"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    
+    <div class="row" align="center">
+        <iframe id="rushVid" width="100%" src="https://www.youtube.com/embed/PCm6AFNgTvE" frameborder="0" allowfullscreen>
+        </iframe>
+        <script>
+          //resizes the video to fit screen
+          (function(){
+            var resize = function(){
+              var vid = document.getElementById('rushVid');
+              var height = rushVid.clientWidth * (72 / 128);
+              var maxHeight = 0.9 * window.innerHeight;
+              vid.height = (height < maxHeight) ? height : maxHeight;
+            };
+            window.addEventListener('load', resize);
+            window.addEventListener('resize', resize);
+          })();
+        </script>
+    </div>
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <h4 class="blue-text text-lighten-2">How can I rush for Theta Tau?</h4>
+                <p>
+                    At the beginning of every semester, we usally hold a mix of informational and social events. It is during this time that you can come out to meet the brothers of Theta Tau in social events and activities that we hold, all the while expressing your interest as a prospective member in our fraternity. After rush week, you will be eligible in consideration for a bid, given that you attended at least one informational and one social event we held during rush week.
+                </p>
+            </div>
+            <div class="row">
+                <h4 class="blue-text text-lighten-2">Our Fall 2015 Rush Schedule</h4>
+                <p>
+                    Below is our schedule for Fall 2015 rush week. The brothers of Theta Tau hope to meet you at our events!
+                </p>
+                <img src="/media/rush/rushflyer.jpg" width="100%">
+            </div>
+            
+        </div>
+    </div>
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12">Frequently Asked Questions</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax">
+            <img alt="Unsplashed background img 2" src="/media/rush/IMG_7309.jpg" style="display: block; transform: translate3d(-50%, 94px, 0px);">
+        </div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <h4 class="blue-text text-lighten-2">What is rush?</h4>
+                <p>
+                    Rush is a series of social events and gatherings that allow prospective and current fraternity or sorority members to get to know each other. At the end of rush, Greek organizations offer "bids" to the prospective members they think are the best fits for the organization. Rush typically lasts from one to two weeks and takes place a week or two into the Fall and Spring Semesters during a time period colloquially known as "Rush Week".
+                </p>
+            </div>
+            <div class="row">
+                <h4 class="blue-text text-lighten-2">Who can rush?</h4>
+                <p>
+                    Prospective members must have an overall GPA of at least 2.50, and it is recommended that prospective members are majoring in or planning to major in a major under the CEAS spectrum.
+                </p>
+            </div>
+            
+            <div class="row">
+                <p class="center blue-text text-lighten-2">
+                    <i class="material-icons">settings</i>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="material-icons">build</i>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="material-icons">settings</i>
+                </p>
+                <p>
+                    <em>If you consider yourself a prospective member and will rush or are rushing for us</em>, then please take a moment to fill out the form below. Doing so will make it easier for us to keep track of you as a prospective member which facilitates our contact with you.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 ">All building starts with a foundation.<br><br></h5>
+                    <div class="row center">
+                        <a class="btn-large disabled waves-effect waves-light blue darken-3 grey-text text-lighten-4">Prospective Member Form // Rush is Over</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parallax">
+            <img alt="Unsplashed background img 3" src="/media/rush/IMG_6913.jpg" style="display: block; transform: translate3d(-50%, 2px, 0px);">
+        </div>
+    </div>
+    <footer class="page-footer blue lighten-1">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h5 class="white-text">Contact Us</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m6 s12">
+                    <p class="grey-text text-lighten-3">
+                        Have any questions, concerns, or comments?
+                        <br>We would love to hear from you! Contact us at:
+                        <br>thetatau.SBU@gmail.com
+                    </p>
+                </div>
+                <div class="col m3 s6" align="center">
+                    <br>
+                    <a target="_blank" href="https://www.facebook.com/ThetaTauSBU/"><img src="/media/general/facebook.png" title="Facebook" width="40%"></a>
+                </div>
+                <div class="col m3 s6">
+                    <br>
+                    <a target="_blank" href="https://instagram.com/stonythetatau/"><img src="/media/general/instagram.png" title="Instagram" width="40%"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Made using <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+    <script src="/js/materialize.min.js"></script>
+    <script src="/js/classesInfo.js"></script>
+    <script src="/js/index.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-82830990-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <div class="hiddendiv common"></div>
+    <div class="drag-target" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+    </div>
+</body>
+</html>
