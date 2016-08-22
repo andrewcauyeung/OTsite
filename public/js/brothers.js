@@ -15,7 +15,7 @@
     var classElement = template.cloneNode(true); //clone the template
     classElement.style.display = 'block'; //set the clone to be displayed
     classElement.classList.remove('template'); //remove template class
-    classElement.childNodes[0].innerText = classesInfo[i].className; //add classname to the text
+    classElement.childNodes[0].innerHTML = classesInfo[i].className; //add classname to the text
     classElement.childNodes[0].href = '/brothers?who='+classesInfo[i].className; //add class to the end of the href
     //highlight if we're on brothers
     if(classesInfo[i].className === className){
@@ -86,28 +86,28 @@
 
     //regentCard
     regentCard.querySelector('img').src = '/media/brother_imgs/' + ~~positions['Regent'].brotherNum + '.jpg';
-    regentCard.querySelector('span').innerText = '#' + ~~positions['Regent'].brotherNum + ' ' + positions['Regent'].firstName + ' ' + positions['Regent'].lastName;
-    regentCard.querySelector('b').innerText = 'Regent';
+    regentCard.querySelector('span').innerHTML = '#' + ~~positions['Regent'].brotherNum + ' ' + positions['Regent'].firstName + ' ' + positions['Regent'].lastName;
+    regentCard.querySelector('b').innerHTML = 'Regent';
 
     //viceCard
     viceCard.querySelector('img').src = '/media/brother_imgs/' + ~~positions['Vice Regent'].brotherNum + '.jpg';
-    viceCard.querySelector('span').innerText = '#' + ~~positions['Vice Regent'].brotherNum + ' ' + positions['Vice Regent'].firstName + ' ' + positions['Vice Regent'].lastName;
-    viceCard.querySelector('b').innerText = 'Vice Regent';
+    viceCard.querySelector('span').innerHTML = '#' + ~~positions['Vice Regent'].brotherNum + ' ' + positions['Vice Regent'].firstName + ' ' + positions['Vice Regent'].lastName;
+    viceCard.querySelector('b').innerHTML = 'Vice Regent';
 
     //scribeCard
     scribeCard.querySelector('img').src = '/media/brother_imgs/' + ~~positions['Scribe'].brotherNum + '.jpg';
-    scribeCard.querySelector('span').innerText = '#' + ~~positions['Scribe'].brotherNum + ' ' + positions['Scribe'].firstName + ' ' + positions['Scribe'].lastName;
-    scribeCard.querySelector('b').innerText = 'Scribe';
+    scribeCard.querySelector('span').innerHTML = '#' + ~~positions['Scribe'].brotherNum + ' ' + positions['Scribe'].firstName + ' ' + positions['Scribe'].lastName;
+    scribeCard.querySelector('b').innerHTML = 'Scribe';
 
     //treasurerCard
     treasurerCard.querySelector('img').src = '/media/brother_imgs/' + ~~positions['Treasurer'].brotherNum + '.jpg';
-    treasurerCard.querySelector('span').innerText = '#' + ~~positions['Treasurer'].brotherNum + ' ' + positions['Treasurer'].firstName + ' ' + positions['Treasurer'].lastName;
-    treasurerCard.querySelector('b').innerText = 'Treasurer';
+    treasurerCard.querySelector('span').innerHTML = '#' + ~~positions['Treasurer'].brotherNum + ' ' + positions['Treasurer'].firstName + ' ' + positions['Treasurer'].lastName;
+    treasurerCard.querySelector('b').innerHTML = 'Treasurer';
     
     //corsecCard
     corsecCard.querySelector('img').src = '/media/brother_imgs/' + ~~positions['Corresponding Secretary'].brotherNum + '.jpg';
-    corsecCard.querySelector('span').innerText = '#' + ~~positions['Corresponding Secretary'].brotherNum + ' ' + positions['Corresponding Secretary'].firstName + ' ' + positions['Corresponding Secretary'].lastName;
-    corsecCard.querySelector('b').innerText = 'Corresponding Secretary';
+    corsecCard.querySelector('span').innerHTML = '#' + ~~positions['Corresponding Secretary'].brotherNum + ' ' + positions['Corresponding Secretary'].firstName + ' ' + positions['Corresponding Secretary'].lastName;
+    corsecCard.querySelector('b').innerHTML = 'Corresponding Secretary';
 
     
     /**

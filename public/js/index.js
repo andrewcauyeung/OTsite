@@ -26,7 +26,7 @@
     var classElement = template.cloneNode(true);
     classElement.classList.remove('template');
     classElement.style.display = 'block';
-    classElement.childNodes[0].innerText = classesInfo[i].className;
+    classElement.childNodes[0].innerHTML = classesInfo[i].className;
     classElement.childNodes[0].href = '/brothers?who='+classesInfo[i].className;
     brotherdropdown.appendChild(classElement);
   }
