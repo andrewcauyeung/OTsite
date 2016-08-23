@@ -231,9 +231,10 @@
 (function($){
   $(function(){
 
-    // Floating-Fixed table of contents
+    // todo(rohan) fix this timeout thing. Also doesnt need to run when not on all brothers page
+    // Floating-Fixed table of contents for brothers page
     setTimeout(function() {
-     $('.toc-wrapper').pushpin({ top:$('#brotherdropdown').offset().top, bottom: $('footer').offset().top});
+     $('.table-of-contents').pushpin({top: $('#Founder').offset().top});
     },100);
       
     $('.button-collapse').sideNav();
