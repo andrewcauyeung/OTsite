@@ -41,13 +41,13 @@
         <script>
           //resizes the video to fit screen
           (function(){
+            var vid = document.getElementById('rushVid');
             var resize = function(){
-              var vid = document.getElementById('rushVid');
               var height = rushVid.clientWidth * (72 / 128);
               var maxHeight = 0.9 * window.innerHeight;
               vid.height = (height < maxHeight) ? height : maxHeight;
             };
-            window.addEventListener('load', resize);
+            window.addEventListener('DOMContentLoaded', resize);
             window.addEventListener('resize', resize);
           })();
         </script>
@@ -117,7 +117,7 @@
                 <div class="row center">
                     <h5 class="header col s12 ">All building starts with a foundation.<br><br></h5>
                     <div class="row center">
-                        <a class="btn-large disabled waves-effect waves-light blue darken-3 grey-text text-lighten-4">Prospective Member Form // Rush is Over</a>
+                        <a class="btn-large disabled waves-effect waves-light blue darken-3 grey-text text-lighten-4">Prospective Member Form // Rush is Over For Spring 2016</a>
                     </div>
                 </div>
             </div>
