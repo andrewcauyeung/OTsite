@@ -1,13 +1,5 @@
 (function($){
   $(function(){
-
-    // Floating-Fixed table of contents
-    setTimeout(function() {
-     $('.toc-wrapper').pushpin({ top:$('#brotherdropdown').offset().top, bottom: $('footer').offset().top});
-    },100);
-      
-     
-      
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
     $(".dropdown-button").dropdown();
