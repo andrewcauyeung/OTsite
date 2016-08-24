@@ -51,7 +51,7 @@ window.brothersInfo = [
   {"_id":{"$oid":"56e8b3553d7f6812876d0d5b"},"brotherNum":50.0,"firstName":"Terrence","lastName":"Ki","major":"Civil Engineering","status":"Active","positionsHeld":["Service Chair"]},
   {"_id":{"$oid":"56e8b3743d7f6812876d0d5c"},"brotherNum":51.0,"firstName":"David","lastName":"Wu","major":"Computer Science","status":"Active","positionsHeld":["n/a"]},
   {"_id":{"$oid":"56e8b3833d7f6812876d0d5d"},"brotherNum":52.0,"firstName":"Chap-Long","lastName":"Lau","major":"Computer Science","status":"Active","positionsHeld":["Fundraising Chair"]},
-  {"_id":{"$oid":"572e86c37066a62091447ece"},"brotherNum":53.0,"firstName":"Anna","lastName":"Lawrence","major":"Engineering Science","status":"Active","positionsHeld":[""]},
+  {"_id":{"$oid":"572e86c37066a62091447ece"},"brotherNum":53.0,"firstName":"Anna","lastName":"Lawrence","major":"Engineering Science","status":"Inactive","positionsHeld":[""]},
   {"_id":{"$oid":"572e87047066a62091447ecf"},"brotherNum":54.0,"firstName":"Valerie","lastName":"Chin","major":"Electrical Engineering","status":"Active","positionsHeld":[""]},
   {"_id":{"$oid":"572e87047066a62091447ed0"},"brotherNum":55.0,"firstName":"Himanshu","lastName":"Kattelu","major":"Computer Science","status":"Active","positionsHeld":[""]},
   {"_id":{"$oid":"572e87047066a62091447ed1"},"brotherNum":56.0,"firstName":"Spencer","lastName":"Hsu","major":"Mechanical Engineering","status":"Active","positionsHeld":[""]},
