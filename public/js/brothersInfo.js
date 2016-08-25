@@ -47,7 +47,7 @@ window.brothersInfo = [
   {"_id":{"$oid":"56e8b3453d7f6812876d0d57"},"brotherNum":46.0,"firstName":"Ping","lastName":"Liang","major":"Mechanical Engineering","status":"Active","positionsHeld":["Social Chair"]},
   {"_id":{"$oid":"56e8b3453d7f6812876d0d58"},"brotherNum":47.0,"firstName":"Andrew Au","lastName":"Yeung","major":"Computer Science","status":"Active","positionsHeld":["Public Relations Chair", "Academic Chair"]},
   {"_id":{"$oid":"56e8b3453d7f6812876d0d59"},"brotherNum":48.0,"firstName":"Benny","lastName":"Lin","major":"Mechanical Engineering","status":"Active","positionsHeld":["Engineering Project Chair"]},
-  {"_id":{"$oid":"56e8b3553d7f6812876d0d5a"},"brotherNum":49.0,"firstName":"Riley","lastName":"Wong","major":"Computer Science","status":"Active","positionsHeld":["Rush Chair"]},
+  {"_id":{"$oid":"56e8b3553d7f6812876d0d5a"},"brotherNum":49.0,"firstName":"Riley","lastName":"Wong","major":"Computer Science","status":"Active","positionsHeld":["Rush Chair","Risk Management Chair"]},
   {"_id":{"$oid":"56e8b3553d7f6812876d0d5b"},"brotherNum":50.0,"firstName":"Terrence","lastName":"Ki","major":"Civil Engineering","status":"Active","positionsHeld":["Service Chair"]},
   {"_id":{"$oid":"56e8b3743d7f6812876d0d5c"},"brotherNum":51.0,"firstName":"David","lastName":"Wu","major":"Computer Science","status":"Active","positionsHeld":["Rush Chair"]},
   {"_id":{"$oid":"56e8b3833d7f6812876d0d5d"},"brotherNum":52.0,"firstName":"Chap-Long","lastName":"Lau","major":"Computer Science","status":"Active","positionsHeld":["Fundraising Chair"]},
