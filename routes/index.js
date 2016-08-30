@@ -6,7 +6,6 @@ router.get('/', function(req, res, next) {
   res.sendfile('./views/index.html');
 });
 
-
 /* GET brothers page. */
 router.get('/brothers', function(req, res, next) {
   res.sendfile('./views/brothers.html');
@@ -15,6 +14,11 @@ router.get('/brothers', function(req, res, next) {
 /* GET rush page. */
 router.get('/rush', function(req, res, next) {
   res.sendfile('./views/rush.html');
+});
+
+/* GET rush form page */
+router.get('/rush_form', function(req, res, next) {
+  res.sendfile('./views/rush_form.html');
 });
 
 /* 404 redirects to / */
