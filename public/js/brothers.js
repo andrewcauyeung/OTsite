@@ -46,7 +46,7 @@
      * Eboard HTML
      */
     mainContainer.innerHTML += '<br><div class="divider"></div><br>';
-    mainContainer.innerHTML += '<h4 id="eboard" class="blue-text text-lighten-2">Fall 2016 E-board</h4>';
+    mainContainer.innerHTML += '<h4 id="eboard" class="blue-text text-lighten-2">Spring 2017 E-board</h4>';
     mainContainer.innerHTML += '<div class="row" id="eboardPrimary"></div>';
     mainContainer.innerHTML += '<div class="row" id="eboardSecondary"></div>';
 
